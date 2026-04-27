@@ -203,3 +203,22 @@ padding-bottom: 30px;
   opacity: 1;
 }
 
+@media (max-width: 480px) {
+  .app {
+    padding: 0 1rem;
+  }
+
+  .task-input {
+    width: 0;
+    flex: 1;
+  }
+
+  .add-btn {
+    flex-shrink: 0;
+  }
+
+  .date-box {
+    font-size: 11px;
+    padding: 8px 10px;
+  }
+}
