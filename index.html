@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap" rel="stylesheet">
+  <div class="app">
+  <div class="top-row">
+  <div class="date-box" id="date-box"></div>
+  <div class="progress-section">
+    <h1 class="progress-label">Progress:</h1>
+    <div class="progress-wrap">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+    <p id="progress-text" class="progress-text">0/0 tasks done</p>
+  </div>
+</div>
+    <div class="input-row">
+      <input id="inp" class="task-input" type="text" placeholder="new task..." />
+<div id="add" class="add-btn">
+  <span class="add-text">Add</span>
+</div>
+    </div>
+    <p class="task-title">My Tasks:</p>
+    <div id="list" class="task-list"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
