@@ -18,3 +18,12 @@ app.whenReady().then(createWindow);
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit();
 });
+
+const win = new BrowserWindow({
+  width: 600,
+  height: 700,
+  icon: path.join(__dirname, 'favicon.png'),
+  webPreferences: {
+    nodeIntegration: true
+  }
+});
